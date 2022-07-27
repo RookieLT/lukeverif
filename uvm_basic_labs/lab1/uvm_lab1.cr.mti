@@ -1,0 +1,58 @@
+D:/lukev/uvm_basic_labs/lab1/factory_mechanism_ref.sv {1 {vlog -work work -vopt -sv -stats=none D:/lukev/uvm_basic_labs/lab1/factory_mechanism_ref.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling package factory_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/lukev/uvm_basic_labs/lab1/factory_mechanism_ref.sv(4): Using implicit +incdir+C:/questasim64_10.6c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling module factory_mechanism
+-- Importing package factory_pkg
+
+Top level modules:
+	factory_mechanism
+
+} {} {}} D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv {1 {vlog -work work -vopt -sv -stats=none D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling package factory_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(4): Using implicit +incdir+C:/questasim64_10.6c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling module factory_mechanism
+-- Importing package factory_pkg
+
+Top level modules:
+	factory_mechanism
+
+} {} {}} D:/lukev/uvm_basic_labs/lab1/uvm_object_methods.sv {1 {vlog -work work -vopt -sv -stats=none D:/lukev/uvm_basic_labs/lab1/uvm_object_methods.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling package object_methods_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/lukev/uvm_basic_labs/lab1/uvm_object_methods.sv(4): Using implicit +incdir+C:/questasim64_10.6c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling module object_methods
+-- Importing package object_methods_pkg
+
+Top level modules:
+	object_methods
+
+} {} {}} D:/lukev/uvm_basic_labs/lab1/uvm_config.sv {1 {vlog -work work -vopt -sv -stats=none D:/lukev/uvm_basic_labs/lab1/uvm_config.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling interface uvm_config_if
+-- Compiling package uvm_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/lukev/uvm_basic_labs/lab1/uvm_config.sv(9): Using implicit +incdir+C:/questasim64_10.6c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling module uvm_config
+-- Importing package uvm_config_pkg
+
+Top level modules:
+	uvm_config
+
+} {} {}} D:/lukev/uvm_basic_labs/lab1/uvm_config_ref.sv {1 {vlog -work work -vopt -sv -stats=none D:/lukev/uvm_basic_labs/lab1/uvm_config_ref.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling interface uvm_config_if
+-- Compiling package uvm_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/lukev/uvm_basic_labs/lab1/uvm_config_ref.sv(9): Using implicit +incdir+C:/questasim64_10.6c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling module uvm_config
+-- Importing package uvm_config_pkg
+
+Top level modules:
+	uvm_config
+
+} {} {}}

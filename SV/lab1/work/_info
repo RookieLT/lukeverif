@@ -1,0 +1,256 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/lukev/SV/lab0
+varbiter
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 WP:o[HjjD0dDYj[Z=L?U20
+I_]<jO3F`R09BZZP3;EKd?3
+Z1 dD:/lukev/SV/lab1
+w1645496448
+8D:/lukev/SV/MCDT设计/v1/arbiter.v
+FD:/lukev/SV/MCDT设计/v1/arbiter.v
+L0 5
+Z2 OL;L;10.6c;65
+Z3 !s108 1645499722.000000
+!s107 D:/lukev/SV/MCDT设计/v1/arbiter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/lukev/SV/MCDT设计/v1/arbiter.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vchnl_initiator
+Z6 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 RTh;zhliQJiQfNb=<HD@A0
+I;Q7IJ8IG@508UeX:ok]3P2
+Z7 !s105 tb4_sv_unit
+S1
+R1
+Z8 w1645504584
+Z9 8D:/lukev/SV/lab1/tb4.sv
+Z10 FD:/lukev/SV/lab1/tb4.sv
+L0 4
+R2
+Z11 !s108 1645504598.000000
+Z12 !s107 D:/lukev/SV/lab1/tb4.sv|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/lukev/SV/lab1/tb4.sv|
+!i113 0
+Z14 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vmcdt
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;d:CKaUJN@kC@I0;XK=<V3
+IS`V3SQ6D;zCo7RZ0jKoZ>1
+R1
+Z15 w1645496449
+8D:/lukev/SV/MCDT设计/v1/mcdt.v
+FD:/lukev/SV/MCDT设计/v1/mcdt.v
+L0 5
+R2
+R3
+!s107 D:/lukev/SV/MCDT设计/v1/mcdt.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/lukev/SV/MCDT设计/v1/mcdt.v|
+!i113 0
+R4
+R5
+vslave_fifo
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 1LRmCDhOihg`i78`dJOe30
+IMDQ1NhH_^=BLKRXoe5ZiI3
+R1
+R15
+8D:/lukev/SV/MCDT设计/v1/slave_fifo.v
+FD:/lukev/SV/MCDT设计/v1/slave_fifo.v
+L0 5
+R2
+R3
+!s107 D:/lukev/SV/MCDT设计/v1/slave_fifo.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/lukev/SV/MCDT设计/v1/slave_fifo.v|
+!i113 0
+R4
+R5
+vtb1
+Z16 !s110 1645499721
+!i10b 1
+!s100 <aK6_^aZ1Cd71k^YggG>f0
+I9g?XnlN?>D<`46^E329OM0
+R0
+R1
+Z17 w1645496426
+8D:/lukev/SV/lab1/tb1.v
+FD:/lukev/SV/lab1/tb1.v
+L0 3
+R2
+r1
+!s85 0
+31
+Z18 !s108 1645499721.000000
+!s107 D:/lukev/SV/lab1/tb1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/lukev/SV/lab1/tb1.v|
+!i113 0
+R4
+R5
+vtb2
+R6
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Qdd^JbEJ:2M08VJ?lBjOK1
+I__cIaZ8AHl4XCaDIl;eG;0
+!s105 tb2_sv_unit
+S1
+R1
+w1645499715
+8D:/lukev/SV/lab1/tb2.sv
+FD:/lukev/SV/lab1/tb2.sv
+L0 3
+R2
+R18
+!s107 D:/lukev/SV/lab1/tb2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/lukev/SV/lab1/tb2.sv|
+!i113 0
+R14
+R5
+vtb2_ref
+R6
+R16
+!i10b 1
+!s100 bT]LaAO`Gg]O@3?9elhK71
+IGSY^c9MYl8_S>CU10gimo0
+R0
+!s105 tb2_ref_sv_unit
+S1
+R1
+R17
+8D:/lukev/SV/lab1/tb2_ref.sv
+FD:/lukev/SV/lab1/tb2_ref.sv
+L0 3
+R2
+r1
+!s85 0
+31
+R18
+!s107 D:/lukev/SV/lab1/tb2_ref.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/lukev/SV/lab1/tb2_ref.sv|
+!i113 0
+R14
+R5
+vtb3
+R6
+!s110 1645504355
+!i10b 1
+!s100 WPC^=P_Re`2:0MJX=EH950
+IU:E=FjKTGiTTSg3FCn^f:0
+R0
+!s105 tb3_sv_unit
+S1
+R1
+w1645501351
+8D:/lukev/SV/lab1/tb3.sv
+FD:/lukev/SV/lab1/tb3.sv
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1645504355.000000
+!s107 D:/lukev/SV/lab1/tb3.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/lukev/SV/lab1/tb3.sv|
+!i113 0
+R14
+R5
+vtb3_ref
+R6
+Z19 !s110 1645499722
+!i10b 1
+!s100 ePbPgA66DlaAQEk>h2^e;2
+I13Gcj0bIo@1ahkBmWXjdJ0
+R0
+!s105 tb3_ref_sv_unit
+S1
+R1
+R17
+8D:/lukev/SV/lab1/tb3_ref.sv
+FD:/lukev/SV/lab1/tb3_ref.sv
+L0 3
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/lukev/SV/lab1/tb3_ref.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/lukev/SV/lab1/tb3_ref.sv|
+!i113 0
+R14
+R5
+vtb4
+R6
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 j6ZUW<jIeXTDWBWoaF3jj2
+I6nd`dX`7bZ>oY1nEhDUJQ2
+R7
+S1
+R1
+R8
+R9
+R10
+L0 42
+R2
+R11
+R12
+R13
+!i113 0
+R14
+R5
+vtb4_ref
+R6
+R19
+!i10b 1
+!s100 :aX5n:iQMVGmQ7joQ[g022
+Id365T]>z]m0SfXce;1][m0
+R0
+!s105 tb4_ref_sv_unit
+S1
+R1
+w1645496427
+8D:/lukev/SV/lab1/tb4_ref.sv
+FD:/lukev/SV/lab1/tb4_ref.sv
+L0 43
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/lukev/SV/lab1/tb4_ref.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/lukev/SV/lab1/tb4_ref.sv|
+!i113 0
+R14
+R5

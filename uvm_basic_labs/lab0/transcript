@@ -1,0 +1,851 @@
+# Compile of factory_mechanism.sv was successful with warnings.
+# Compile of factory_mechanism.sv was successful with warnings.
+# Compile of factory_mechanism.sv was successful.
+vsim -novopt -classdebug +UVM_TESTNAME=object_create work.factory_mechanism
+# vsim -novopt -classdebug "+UVM_TESTNAME=object_create" work.factory_mechanism 
+# Start time: 11:18:13 on Mar 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.factory_mechanism
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.factory_pkg
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.factory_pkg
+# Loading work.factory_mechanism
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.6c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test object_create...
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(11) @ 0: reporter [CREATE] trans type [t1] created
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 1000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    5
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [CREATE]     1
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1 us  Iteration: 54  Instance: /factory_mechanism
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Compile of factory_mechanism.sv failed with 3 errors.
+# Compile of factory_mechanism.sv failed with 3 errors.
+# Compile of factory_mechanism.sv failed with 3 errors.
+# Compile of factory_mechanism.sv failed with 3 errors.
+# Compile of factory_mechanism.sv failed with 3 errors.
+# Compile of factory_mechanism.sv failed with 3 errors.
+# Compile of factory_mechanism.sv failed with 1 errors.
+# Compile of factory_mechanism.sv failed with 1 errors.
+# Compile of factory_mechanism.sv was successful.
+# Compile of factory_mechanism.sv was successful.
+vsim -novopt work.factory_mechanism
+# End time: 17:37:13 on Mar 15,2022, Elapsed time: 6:19:00
+# Errors: 0, Warnings: 1
+# vsim -novopt work.factory_mechanism 
+# Start time: 17:37:13 on Mar 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.factory_mechanism
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.factory_pkg
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.factory_pkg
+# Loading work.factory_mechanism
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.6c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_FATAL @ 0: reporter [NOCOMP] No components instantiated. You must either instantiate at least one component before calling run_test or use run_test to do so. To run a test using run_test, use +UVM_TESTNAME or supply the test name in the argument to run_test(). Exiting simulation.
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    2
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    1
+# ** Report counts by id
+# [NOCOMP]     1
+# [Questa UVM]     2
+# ** Note: $finish    : C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_report_object.svh(292)
+#    Time: 0 ns  Iteration: 0  Instance: /factory_mechanism
+# 1
+# Break in Function uvm_pkg/uvm_report_object::die at C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_report_object.svh line 292
+vsim -novopt -classdebug +UVM_TESTNAME=object_create work.factory_mechanism
+# End time: 17:39:49 on Mar 15,2022, Elapsed time: 0:02:36
+# Errors: 0, Warnings: 1
+# vsim -novopt -classdebug "+UVM_TESTNAME=object_create" work.factory_mechanism 
+# Start time: 17:39:49 on Mar 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.factory_pkg
+# Loading work.factory_mechanism
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.6c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test object_create...
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(11) @ 0: reporter [CREATE] trans type [t1] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(11) @ 0: reporter [CREATE] trans type [trans] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(11) @ 0: reporter [CREATE] trans type [trans] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(11) @ 0: reporter [CREATE] trans type [trans] created
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 1000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    8
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [CREATE]     4
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1 us  Iteration: 54  Instance: /factory_mechanism
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+vsim -novopt -classdebug +UVM_TESTNAME=component_create work.factory_mechanism
+# End time: 17:42:26 on Mar 15,2022, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 1
+# vsim -novopt -classdebug "+UVM_TESTNAME=component_create" work.factory_mechanism 
+# Start time: 17:42:26 on Mar 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.factory_pkg
+# Loading work.factory_mechanism
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.6c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test component_create...
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(28) @ 0: u1 [CREATE] unit type [u1] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(28) @ 0: uvm_test_top.u2 [CREATE] unit type [u2] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(28) @ 0: uvm_test_top.u3 [CREATE] unit type [u3] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(28) @ 0: uvm_test_top.u4 [CREATE] unit type [u4] created
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 1000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    8
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [CREATE]     4
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1 us  Iteration: 54  Instance: /factory_mechanism
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Compile of factory_mechanism.sv failed with 2 errors.
+# Compile of factory_mechanism.sv failed with 2 errors.
+# Compile of factory_mechanism.sv was successful with warnings.
+# Compile of factory_mechanism.sv was successful with warnings.
+# Compile of factory_mechanism.sv was successful.
+vsim -novopt -classdebug +UVM_TESTNAME=object_override work.factory_mechanism
+# End time: 18:31:24 on Mar 15,2022, Elapsed time: 0:48:58
+# Errors: 0, Warnings: 1
+# vsim -novopt -classdebug "+UVM_TESTNAME=object_override" work.factory_mechanism 
+# Start time: 18:31:24 on Mar 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.factory_mechanism
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.factory_pkg
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.factory_pkg
+# Loading work.factory_mechanism
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.6c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test object_override...
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(11) @ 0: reporter [CREATE] trans type [t1] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(11) @ 0: reporter [CREATE] trans type [trans] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(20) @ 0: reporter [CREATE] bad_trans type [trans] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(11) @ 0: reporter [CREATE] trans type [trans] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(20) @ 0: reporter [CREATE] bad_trans type [trans] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(11) @ 0: reporter [CREATE] trans type [trans] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(20) @ 0: reporter [CREATE] bad_trans type [trans] created
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 1000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   11
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [CREATE]     7
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1 us  Iteration: 54  Instance: /factory_mechanism
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+vsim -novopt -classdebug +UVM_TESTNAME=component_override work.factory_mechanism
+# End time: 18:34:40 on Mar 15,2022, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 1
+# vsim -novopt -classdebug "+UVM_TESTNAME=component_override" work.factory_mechanism 
+# Start time: 18:34:40 on Mar 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.factory_pkg
+# Loading work.factory_mechanism
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.6c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test component_override...
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(28) @ 0: u1 [CREATE] unit type [u1] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(28) @ 0: uvm_test_top.u2 [CREATE] unit type [u2] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(37) @ 0: uvm_test_top.u2 [CREATE] big_unit type [u2] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(28) @ 0: uvm_test_top.u3 [CREATE] unit type [u3] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(37) @ 0: uvm_test_top.u3 [CREATE] big_unit type [u3] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(28) @ 0: uvm_test_top.u4 [CREATE] unit type [u4] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism.sv(37) @ 0: uvm_test_top.u4 [CREATE] big_unit type [u4] created
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 1000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   11
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [CREATE]     7
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1 us  Iteration: 54  Instance: /factory_mechanism
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Compile of factory_mechanism_ref.sv was successful.
+vsim -novopt -classdebug +UVM_TESTNAME=component_override work.factory_mechanism_ref
+# End time: 18:35:51 on Mar 15,2022, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 1
+# vsim -novopt -classdebug "+UVM_TESTNAME=component_override" work.factory_mechanism_ref 
+# Start time: 18:35:51 on Mar 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Error: (vsim-3170) Could not find 'factory_mechanism_ref'.
+#         Searched libraries:
+#             D:/lukev/uvm_basic_labs/lab1/work
+# Error loading design
+# End time: 18:35:51 on Mar 15,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of factory_mechanism_ref.sv was successful.
+# Compile of factory_mechanism_ref.sv was successful.
+# Compile of factory_mechanism_ref.sv was successful.
+# Compile of factory_mechanism_ref.sv was successful.
+# Compile of factory_mechanism_ref.sv was successful.
+vsim -novopt -classdebug +UVM_TESTNAME=component_override work.factory_mechanism
+# vsim -novopt -classdebug "+UVM_TESTNAME=component_override" work.factory_mechanism 
+# Start time: 18:36:15 on Mar 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.factory_mechanism
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.factory_pkg
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.factory_pkg
+# Loading work.factory_mechanism
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.6c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test component_override...
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism_ref.sv(28) @ 0: u1 [CREATE] unit type [u1] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism_ref.sv(28) @ 0: uvm_test_top.u2 [CREATE] unit type [u2] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism_ref.sv(37) @ 0: uvm_test_top.u2 [CREATE] big_unit type [u2] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism_ref.sv(28) @ 0: uvm_test_top.u3 [CREATE] unit type [u3] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism_ref.sv(37) @ 0: uvm_test_top.u3 [CREATE] big_unit type [u3] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism_ref.sv(28) @ 0: uvm_test_top.u4 [CREATE] unit type [u4] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/factory_mechanism_ref.sv(37) @ 0: uvm_test_top.u4 [CREATE] big_unit type [u4] created
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 1000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   11
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [CREATE]     7
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1 us  Iteration: 54  Instance: /factory_mechanism
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Compile of uvm_object_methods.sv failed with 7 errors.
+# Compile of uvm_object_methods.sv failed with 7 errors.
+# Compile of uvm_object_methods.sv failed with 14 errors.
+# Compile of uvm_object_methods.sv failed with 14 errors.
+# Compile of uvm_object_methods.sv failed with 14 errors.
+# Compile of uvm_object_methods.sv failed with 14 errors.
+# Compile of uvm_object_methods.sv failed with 7 errors.
+# Compile of uvm_object_methods.sv failed with 7 errors.
+# Compile of uvm_object_methods.sv was successful.
+# Compile of uvm_object_methods.sv was successful.
+vsim -novopt -classdebug +UVM_TESTNAME=object_methods_test work.object_methods
+# End time: 21:22:16 on Mar 15,2022, Elapsed time: 2:46:01
+# Errors: 0, Warnings: 1
+# vsim -novopt -classdebug "+UVM_TESTNAME=object_methods_test" work.object_methods 
+# Start time: 21:22:16 on Mar 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.object_methods
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.object_methods_pkg
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.object_methods_pkg
+# Loading work.object_methods
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.6c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test object_methods_test...
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/uvm_object_methods.sv(26) @ 0: reporter [CREATE] trans type [trans] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/uvm_object_methods.sv(26) @ 0: reporter [CREATE] trans type [trans] created
+# UVM_INFO @ 0: reporter [MISCMP] Miscompare for t1.addr: lhs = 'hf100 : rhs = 'hf200
+# UVM_INFO @ 0: reporter [MISCMP] Miscompare for t1.data: lhs = 'h1ff : rhs = 'h2ff
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/uvm_object_methods.sv(36) @ 0: reporter [CMPERR] [t1].addr and [t2].addr mismatch
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/uvm_object_methods.sv(40) @ 0: reporter [CMPERR] [t1].data and [t2].data mismatch
+# UVM_INFO @ 0: reporter [MISCMP] 2 Miscompare(s) for object t2@474 vs. t1@473
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/uvm_object_methods.sv(91) @ 0: uvm_test_top [COPY] Before uvm_object copy() taken
+# ------------------------------
+# Name    Type      Size  Value 
+# ------------------------------
+# t1      trans     -     @473  
+#   addr  integral  32    'hf100
+#   data  integral  32    'h1ff 
+#   op    op_t      32    WRITE 
+# ------------------------------
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/uvm_object_methods.sv(96) @ 0: uvm_test_top [COPY] After uvm_object t2 is copied to t1
+# ------------------------------
+# Name    Type      Size  Value 
+# ------------------------------
+# t1      trans     -     @473  
+#   addr  integral  32    'hf200
+#   data  integral  32    'h2ff 
+#   op    op_t      32    WRITE 
+# ------------------------------
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 0: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   13
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [CMPERR]     2
+# [COPY]     2
+# [CREATE]     2
+# [MISCMP]     3
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 0 ns  Iteration: 216  Instance: /object_methods
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Compile of phase_order.sv failed with 11 errors.
+# Compile of phase_order.sv failed with 11 errors.
+# Compile of phase_order.sv failed with 9 errors.
+# Compile of phase_order.sv failed with 18 errors.
+# Compile of phase_order.sv failed with 18 errors.
+# Compile of phase_order.sv failed with 9 errors.
+# Compile of phase_order.sv failed with 3 errors.
+# Compile of phase_order.sv failed with 3 errors.
+# Compile of phase_order.sv was successful with warnings.
+# Compile of phase_order.sv was successful with warnings.
+# Compile of phase_order.sv was successful.
+vsim -novopt -classdebug +UVM_TESTNAME=phase_order_test work.phase_order
+# End time: 22:02:50 on Mar 15,2022, Elapsed time: 0:40:34
+# Errors: 0, Warnings: 1
+# vsim -novopt -classdebug "+UVM_TESTNAME=phase_order_test" work.phase_order 
+# Start time: 22:02:50 on Mar 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.phase_order
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.phase_order_pkg
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.phase_order_pkg
+# Loading work.phase_order
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.6c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test phase_order_test...
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(120) @ 0: uvm_test_top [BUILD] phase_order_test build phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(86) @ 0: uvm_test_top.c1 [CREATE] unit type [c1] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(122) @ 0: uvm_test_top [BUILD] phase_order_test build phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(90) @ 0: uvm_test_top.c1 [BUILD] comp1 build phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(10) @ 0: uvm_test_top.c1.c2 [CREATE] unit type [c2] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(47) @ 0: uvm_test_top.c1.c3 [CREATE] unit type [c3] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(93) @ 0: uvm_test_top.c1 [BUILD] comp1 build phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(20) @ 0: uvm_test_top.c1.c2 [BUILD] comp2 build phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(21) @ 0: uvm_test_top.c1.c2 [BUILD] comp2 build phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(57) @ 0: uvm_test_top.c1.c3 [BUILD] comp3 build phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(58) @ 0: uvm_test_top.c1.c3 [BUILD] comp3 build phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(26) @ 0: uvm_test_top.c1.c2 [CONNECT] comp2 connect phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(27) @ 0: uvm_test_top.c1.c2 [CONNECT] comp2 connect phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(63) @ 0: uvm_test_top.c1.c3 [CONNECT] comp3 connect phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(64) @ 0: uvm_test_top.c1.c3 [CONNECT] comp3 connect phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(97) @ 0: uvm_test_top.c1 [CONNECT] comp1 connect phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(98) @ 0: uvm_test_top.c1 [CONNECT] comp1 connect phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(126) @ 0: uvm_test_top [CONNECT] phase_order_test connect phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(127) @ 0: uvm_test_top [CONNECT] phase_order_test connect phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(131) @ 0: uvm_test_top [RUN] phase_order_test run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(102) @ 0: uvm_test_top.c1 [RUN] comp1 run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(103) @ 0: uvm_test_top.c1 [RUN] comp1 run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(69) @ 0: uvm_test_top.c1.c3 [RUN] comp3 run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(70) @ 0: uvm_test_top.c1.c3 [RUN] comp3 run phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(32) @ 0: uvm_test_top.c1.c2 [RUN] comp2 run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(33) @ 0: uvm_test_top.c1.c2 [RUN] comp2 run phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(135) @ 1000: uvm_test_top [RUN] phase_order_test run phase exited
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 1000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(38) @ 1000: uvm_test_top.c1.c2 [RPT] comp2 rpt phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(39) @ 1000: uvm_test_top.c1.c2 [RPT] comp2 rpt phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(75) @ 1000: uvm_test_top.c1.c3 [RPT] comp3 rpt phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(76) @ 1000: uvm_test_top.c1.c3 [RPT] comp3 rpt phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(107) @ 1000: uvm_test_top.c1 [REPORT] comp1 report phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(108) @ 1000: uvm_test_top.c1 [REPORT] comp1 report phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(139) @ 1000: uvm_test_top [REPORT] phase_order_test report phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(140) @ 1000: uvm_test_top [REPORT] phase_order_test report phase exited
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   39
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [BUILD]     8
+# [CONNECT]     8
+# [CREATE]     3
+# [Questa UVM]     2
+# [REPORT]     4
+# [RNTST]     1
+# [RPT]     4
+# [RUN]     8
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1 us  Iteration: 54  Instance: /phase_order
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Compile of phase_order.sv was successful.
+# Compile of phase_order.sv was successful.
+vsim -novopt -classdebug +UVM_TESTNAME=phase_order_test work.phase_order
+# End time: 22:13:51 on Mar 15,2022, Elapsed time: 0:11:01
+# Errors: 0, Warnings: 1
+# vsim -novopt -classdebug "+UVM_TESTNAME=phase_order_test" work.phase_order 
+# Start time: 22:13:51 on Mar 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.phase_order
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.phase_order_pkg
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.phase_order_pkg
+# Loading work.phase_order
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.6c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test phase_order_test...
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(120) @ 0: uvm_test_top [BUILD] phase_order_test build phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(86) @ 0: uvm_test_top.c1 [CREATE] unit type [c1] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(122) @ 0: uvm_test_top [BUILD] phase_order_test build phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(90) @ 0: uvm_test_top.c1 [BUILD] comp1 build phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(10) @ 0: uvm_test_top.c1.c2 [CREATE] unit type [c2] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(47) @ 0: uvm_test_top.c1.c3 [CREATE] unit type [c3] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(93) @ 0: uvm_test_top.c1 [BUILD] comp1 build phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(20) @ 0: uvm_test_top.c1.c2 [BUILD] comp2 build phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(21) @ 0: uvm_test_top.c1.c2 [BUILD] comp2 build phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(57) @ 0: uvm_test_top.c1.c3 [BUILD] comp3 build phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(58) @ 0: uvm_test_top.c1.c3 [BUILD] comp3 build phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(26) @ 0: uvm_test_top.c1.c2 [CONNECT] comp2 connect phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(27) @ 0: uvm_test_top.c1.c2 [CONNECT] comp2 connect phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(63) @ 0: uvm_test_top.c1.c3 [CONNECT] comp3 connect phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(64) @ 0: uvm_test_top.c1.c3 [CONNECT] comp3 connect phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(97) @ 0: uvm_test_top.c1 [CONNECT] comp1 connect phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(98) @ 0: uvm_test_top.c1 [CONNECT] comp1 connect phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(126) @ 0: uvm_test_top [CONNECT] phase_order_test connect phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(127) @ 0: uvm_test_top [CONNECT] phase_order_test connect phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(131) @ 0: uvm_test_top [RUN] phase_order_test run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(102) @ 0: uvm_test_top.c1 [RUN] comp1 run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(103) @ 0: uvm_test_top.c1 [RUN] comp1 run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(69) @ 0: uvm_test_top.c1.c3 [RUN] comp3 run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(70) @ 0: uvm_test_top.c1.c3 [RUN] comp3 run phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(32) @ 0: uvm_test_top.c1.c2 [RUN] comp2 run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(33) @ 0: uvm_test_top.c1.c2 [RUN] comp2 run phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(150) @ 0: uvm_test_top [RESET] phase_order_test reset_phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(157) @ 0: uvm_test_top [MAIN] phase_order_test main_phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(135) @ 1000: uvm_test_top [RUN] phase_order_test run phase exited
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 1000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(38) @ 1000: uvm_test_top.c1.c2 [RPT] comp2 rpt phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(39) @ 1000: uvm_test_top.c1.c2 [RPT] comp2 rpt phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(75) @ 1000: uvm_test_top.c1.c3 [RPT] comp3 rpt phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(76) @ 1000: uvm_test_top.c1.c3 [RPT] comp3 rpt phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(107) @ 1000: uvm_test_top.c1 [REPORT] comp1 report phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(108) @ 1000: uvm_test_top.c1 [REPORT] comp1 report phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(139) @ 1000: uvm_test_top [REPORT] phase_order_test report phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(140) @ 1000: uvm_test_top [REPORT] phase_order_test report phase exited
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   41
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [BUILD]     8
+# [CONNECT]     8
+# [CREATE]     3
+# [MAIN]     1
+# [Questa UVM]     2
+# [REPORT]     4
+# [RESET]     1
+# [RNTST]     1
+# [RPT]     4
+# [RUN]     8
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1 us  Iteration: 54  Instance: /phase_order
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Compile of phase_order.sv was successful.
+vsim -novopt -classdebug +UVM_TESTNAME=phase_order_test work.phase_order
+# End time: 22:17:06 on Mar 15,2022, Elapsed time: 0:03:15
+# Errors: 0, Warnings: 1
+# vsim -novopt -classdebug "+UVM_TESTNAME=phase_order_test" work.phase_order 
+# Start time: 22:17:06 on Mar 15,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.phase_order
+# Refreshing D:/lukev/uvm_basic_labs/lab1/work.phase_order_pkg
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.phase_order_pkg
+# Loading work.phase_order
+# Loading mtiUvm.questa_uvm_pkg
+# Loading C:/questasim64_10.6c/uvm-1.1d\win64\uvm_dpi.dll
+run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test phase_order_test...
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(120) @ 0: uvm_test_top [BUILD] phase_order_test build phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(86) @ 0: uvm_test_top.c1 [CREATE] unit type [c1] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(122) @ 0: uvm_test_top [BUILD] phase_order_test build phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(90) @ 0: uvm_test_top.c1 [BUILD] comp1 build phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(10) @ 0: uvm_test_top.c1.c2 [CREATE] unit type [c2] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(47) @ 0: uvm_test_top.c1.c3 [CREATE] unit type [c3] created
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(93) @ 0: uvm_test_top.c1 [BUILD] comp1 build phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(20) @ 0: uvm_test_top.c1.c2 [BUILD] comp2 build phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(21) @ 0: uvm_test_top.c1.c2 [BUILD] comp2 build phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(57) @ 0: uvm_test_top.c1.c3 [BUILD] comp3 build phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(58) @ 0: uvm_test_top.c1.c3 [BUILD] comp3 build phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(26) @ 0: uvm_test_top.c1.c2 [CONNECT] comp2 connect phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(27) @ 0: uvm_test_top.c1.c2 [CONNECT] comp2 connect phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(63) @ 0: uvm_test_top.c1.c3 [CONNECT] comp3 connect phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(64) @ 0: uvm_test_top.c1.c3 [CONNECT] comp3 connect phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(97) @ 0: uvm_test_top.c1 [CONNECT] comp1 connect phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(98) @ 0: uvm_test_top.c1 [CONNECT] comp1 connect phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(126) @ 0: uvm_test_top [CONNECT] phase_order_test connect phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(127) @ 0: uvm_test_top [CONNECT] phase_order_test connect phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(131) @ 0: uvm_test_top [RUN] phase_order_test run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(102) @ 0: uvm_test_top.c1 [RUN] comp1 run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(103) @ 0: uvm_test_top.c1 [RUN] comp1 run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(69) @ 0: uvm_test_top.c1.c3 [RUN] comp3 run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(70) @ 0: uvm_test_top.c1.c3 [RUN] comp3 run phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(32) @ 0: uvm_test_top.c1.c2 [RUN] comp2 run phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(33) @ 0: uvm_test_top.c1.c2 [RUN] comp2 run phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(150) @ 0: uvm_test_top [RESET] phase_order_test reset_phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(135) @ 1000: uvm_test_top [RUN] phase_order_test run phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(154) @ 1000: uvm_test_top [RESET] phase_order_test reset_phase exited
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 1000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(159) @ 1000: uvm_test_top [MAIN] phase_order_test main_phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(163) @ 2000: uvm_test_top [MAIN] phase_order_test main_phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(38) @ 2000: uvm_test_top.c1.c2 [RPT] comp2 rpt phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(39) @ 2000: uvm_test_top.c1.c2 [RPT] comp2 rpt phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(75) @ 2000: uvm_test_top.c1.c3 [RPT] comp3 rpt phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(76) @ 2000: uvm_test_top.c1.c3 [RPT] comp3 rpt phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(107) @ 2000: uvm_test_top.c1 [REPORT] comp1 report phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(108) @ 2000: uvm_test_top.c1 [REPORT] comp1 report phase exited
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(139) @ 2000: uvm_test_top [REPORT] phase_order_test report phase entered
+# UVM_INFO D:/lukev/uvm_basic_labs/lab1/phase_order.sv(140) @ 2000: uvm_test_top [REPORT] phase_order_test report phase exited
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   43
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [BUILD]     8
+# [CONNECT]     8
+# [CREATE]     3
+# [MAIN]     2
+# [Questa UVM]     2
+# [REPORT]     4
+# [RESET]     2
+# [RNTST]     1
+# [RPT]     4
+# [RUN]     8
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 2 us  Iteration: 97  Instance: /phase_order
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_10.6c/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430

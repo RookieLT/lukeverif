@@ -1,0 +1,191 @@
+@0 [INFO] [TEST] : =====================mcdf_formatter_grant_test AT TIME 0 STARTED=====================
+@140000 [INFO] [CMPSUC] : SUCCESS! SLV0_WR_REG val1 00000009 == val2 00000009
+@170000 [INFO] [CMPSUC] : SUCCESS! SLV1_WR_REG val1 00000013 == val2 00000013
+@200000 [INFO] [CMPSUC] : SUCCESS! SLV2_WR_REG val1 0000001d == val2 0000001d
+@445000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 445000 
+COMPARED SUCCESS!
+=======================================
+
+@445000 [INFO] [CMPSUCD] : 445000 1th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@625000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 625000 
+COMPARED SUCCESS!
+=======================================
+
+@625000 [INFO] [CMPSUCD] : 625000 2th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@805000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 805000 
+COMPARED SUCCESS!
+=======================================
+
+@805000 [INFO] [CMPSUCD] : 805000 3th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@985000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 985000 
+COMPARED SUCCESS!
+=======================================
+
+@985000 [INFO] [CMPSUCD] : 985000 4th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@1165000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 1165000 
+COMPARED SUCCESS!
+=======================================
+
+@1165000 [INFO] [CMPSUCD] : 1165000 5th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@1345000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 1345000 
+COMPARED SUCCESS!
+=======================================
+
+@1345000 [INFO] [CMPSUCD] : 1345000 6th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@1525000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 1525000 
+COMPARED SUCCESS!
+=======================================
+
+@1525000 [INFO] [CMPSUCD] : 1525000 7th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@1705000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 1705000 
+COMPARED SUCCESS!
+=======================================
+
+@1705000 [INFO] [CMPSUCD] : 1705000 8th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@1885000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 1885000 
+COMPARED SUCCESS!
+=======================================
+
+@1885000 [INFO] [CMPSUCD] : 1885000 9th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@2065000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 2065000 
+COMPARED SUCCESS!
+=======================================
+
+@2065000 [INFO] [CMPSUCD] : 2065000 10th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@2245000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 2245000 
+COMPARED SUCCESS!
+=======================================
+
+@2245000 [INFO] [CMPSUCD] : 2245000 11th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@2425000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 2425000 
+COMPARED SUCCESS!
+=======================================
+
+@2425000 [INFO] [CMPSUCD] : 2425000 12th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@2605000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 2605000 
+COMPARED SUCCESS!
+=======================================
+
+@2605000 [INFO] [CMPSUCD] : 2605000 13th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@2785000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 2785000 
+COMPARED SUCCESS!
+=======================================
+
+@2785000 [INFO] [CMPSUCD] : 2785000 14th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@2965000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 2965000 
+COMPARED SUCCESS!
+=======================================
+
+@2965000 [INFO] [CMPSUCD] : 2965000 15th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@3155000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 3155000 
+COMPARED SUCCESS!
+=======================================
+
+@3155000 [INFO] [CMPSUCD] : 3155000 16th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@3565000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 3565000 
+COMPARED SUCCESS!
+=======================================
+
+@3565000 [INFO] [CMPSUCD] : 3565000 17th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@3895000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 3895000 
+COMPARED SUCCESS!
+=======================================
+
+@3895000 [INFO] [CMPSUCD] : 3895000 18th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@4225000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 4225000 
+COMPARED SUCCESS!
+=======================================
+
+@4225000 [INFO] [CMPSUCD] : 4225000 19th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@4635000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 4635000 
+COMPARED SUCCESS!
+=======================================
+
+@4635000 [INFO] [CMPSUCD] : 4635000 20th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@4965000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 4965000 
+COMPARED SUCCESS!
+=======================================
+
+@4965000 [INFO] [CMPSUCD] : 4965000 21th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@5315000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 5315000 
+COMPARED SUCCESS!
+=======================================
+
+@5315000 [INFO] [CMPSUCD] : 5315000 22th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@5625000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 5625000 
+COMPARED SUCCESS!
+=======================================
+
+@5625000 [INFO] [CMPSUCD] : 5625000 23th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@5935000 [INFO] [CMPOBJ] : 
+=======================================
+COMPARING fmt_trans object at time 5935000 
+COMPARED SUCCESS!
+=======================================
+
+@5935000 [INFO] [CMPSUCD] : 5935000 24th times comparing and succeeded! MCDF monitored output packet is the same with reference model output
+@6020000 [INFO] [mcdf_checker] : 
+---------------------------------------------------------------
+CHECKER SUMMARY 
+total comparison count: 24 
+ channel[0] comparison count: 24 
+ channel[1] comparison count: 0 
+ channel[2] comparison count: 0 
+total error count: 0 
+---------------------------------------------------------------
+
+@6020000 [INFO] [REPORT] : 
+---------------------------------------------------------------
+REPORT SUMMARY
+info count: 53 
+warning count: 0 
+error count: 0 
+fatal count: 0 
+---------------------------------------------------------------
+

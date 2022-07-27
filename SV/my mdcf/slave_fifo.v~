@@ -1,0 +1,18 @@
+//------------------------------------------------------------------------------------------------------------------------//
+//change log 2017-08-20 fix read pointer and write pointer 
+//------------------------------------------------------------------------------------------------------------------------//
+module slave_fifo (
+input                       clk_i,                  // Clock input 
+input                       rstn_i,                 // low level effective 
+input [31:0]                chx_data_i,             // Data input                 ---->From outside
+input                       a2sx_ack_i,             // Read ack                   ---->From Arbiter
+input                       slvx_en_i,              // Write enable To Registers  ---->To Register
+input                       chx_valid_i,            // Data is valid From outside ---->From Outside
+output reg [31:0]           slvx_data_o,            // Data Output                ---->To Arbiter
+output [5:0]                margin_o,               // Data margin                ---->To Registers
+output reg                  chx_ready_o,            // Ready to accept data       ---->To outside
+output reg                  slvx_val_o,             // read acknowledge Keep to handshake with Arbiter ----> To Arbiter
+output reg                  slvx_req_o 
+);     
+
+endmodule 

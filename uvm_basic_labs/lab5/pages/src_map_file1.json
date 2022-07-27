@@ -1,0 +1,8 @@
+var g_data = {'dummy':null,
+'5':'D:/lukev/uvm_basic_labs/mcdf/arbiter.v',
+'6':'D:/lukev/uvm_basic_labs/mcdf/formater.v',
+'4':'D:/lukev/uvm_basic_labs/mcdf/mcdf.v',
+'3':'D:/lukev/uvm_basic_labs/mcdf/reg.v',
+'1':'D:/lukev/uvm_basic_labs/mcdf/slave_fifo.v',
+'2':'mcdf_pkg_ref.sv',
+'7':'tb.sv'};

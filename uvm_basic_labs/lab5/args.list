@@ -1,0 +1,12 @@
+-html
+-htmldir
+D:/lukev/uvm_basic_labs/lab5
+-source
+-directive
+-cvg
+-code
+bcefst
+-threshL
+50
+-threshH
+90

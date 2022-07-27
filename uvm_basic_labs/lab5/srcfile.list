@@ -1,0 +1,7 @@
+D:/lukev/uvm_basic_labs/mcdf/arbiter.v
+D:/lukev/uvm_basic_labs/mcdf/formater.v
+D:/lukev/uvm_basic_labs/mcdf/mcdf.v
+D:/lukev/uvm_basic_labs/mcdf/reg.v
+D:/lukev/uvm_basic_labs/mcdf/slave_fifo.v
+mcdf_pkg_ref.sv
+tb.sv

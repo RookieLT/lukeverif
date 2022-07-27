@@ -1,0 +1,46 @@
+D:/lukev/uvm_basic_labs/lab0/sv_class_inst.sv {1 {vlog -work work -vopt -sv -stats=none D:/lukev/uvm_basic_labs/lab0/sv_class_inst.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module sv_class_inst
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/lukev/uvm_basic_labs/lab0/sv_class_inst.sv(5): Using implicit +incdir+C:/questasim64_10.6c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	sv_class_inst
+
+} {} {}} D:/lukev/uvm_basic_labs/lab0/uvm_test_inst.sv {2 {vlog -work work -vopt -sv -stats=none D:/lukev/uvm_basic_labs/lab0/uvm_test_inst.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+** Warning: (vlog-6) -- Waiting for lock by "lt940@LAPTOP-M1A3RFJN, pid = 26392
+". Lockfile is "D:/lukev/uvm_basic_labs/lab0/work/_lock".
+-- Compiling module uvm_test_inst
+-- Importing package test_pkg
+
+Top level modules:
+	uvm_test_inst
+-- Compiling package test_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/lukev/uvm_basic_labs/lab0/uvm_test_inst.sv(4): Using implicit +incdir+C:/questasim64_10.6c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling module uvm_test_inst
+-- Importing package test_pkg
+
+Top level modules:
+	uvm_test_inst
+
+} {} {}} D:/lukev/uvm_basic_labs/lab0/uvm_compile.sv {1 {vlog -work work -vopt -sv -stats=none D:/lukev/uvm_basic_labs/lab0/uvm_compile.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module uvm_compile
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/lukev/uvm_basic_labs/lab0/uvm_compile.sv(6): Using implicit +incdir+C:/questasim64_10.6c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	uvm_compile
+
+} {} {}} D:/lukev/uvm_basic_labs/lab0/uvm_class_inst.sv {1 {vlog -work work -vopt -sv -stats=none D:/lukev/uvm_basic_labs/lab0/uvm_class_inst.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module uvm_class_inst
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/lukev/uvm_basic_labs/lab0/uvm_class_inst.sv(5): Using implicit +incdir+C:/questasim64_10.6c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	uvm_class_inst
+
+} {} {}}
